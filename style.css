@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr 5fr;
+  grid-template-columns: 1fr 5fr;
+}
+
+nav {
+  background-color: aliceblue;
+  grid-row: span 2;
+}
+
+header {
+  background-color: beige;
+}
